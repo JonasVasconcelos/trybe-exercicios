@@ -1,0 +1,26 @@
+body{
+    font-size: 16px;
+  }
+  
+  h1{
+      font-size: 65px;
+      font-family: sans-serif;
+      color: orange;
+  }
+  
+  p{
+    font-weight: 600;
+    font-size: 48px;
+    text-decoration: underline;
+    text-align: center;
+  }
+  
+  ul{
+    background-color: blue;
+    line-height: 0.75cm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .item4{
+    background-color: green;
+  }
