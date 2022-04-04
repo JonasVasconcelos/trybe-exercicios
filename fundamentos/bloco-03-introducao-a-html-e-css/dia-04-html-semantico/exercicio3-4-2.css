@@ -1,0 +1,28 @@
+nav li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 50px;
+}
+
+span{
+    font-weight: bold;
+}
+
+h1{
+    text-align: left;
+}
+
+
+.foto{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+footer li{
+    list-style-type: none;
+}
+
+footer{
+    text-align: right;
+}
