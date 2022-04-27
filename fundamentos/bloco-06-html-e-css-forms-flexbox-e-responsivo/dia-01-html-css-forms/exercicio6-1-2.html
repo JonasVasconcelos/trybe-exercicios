@@ -5,12 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercicio 6-1-2</title>
+    <link rel="stylesheet" href="exercicio6-1-2.css">
 </head>
 <body>
-    <a id = 'href'></a>
-    <input type="text" id="input-text">
-    <input type="checkbox" id="input-checkbox">
+    <header>
+        <h1>Go TrybeTrip</h1>
+    </header>
 
+    <main>
+        <form action="">
+            <label for="name">Nome completo: <br>
+                <input type="text" id="name" autofocus placeholder="Digite seu nome completo" maxlength="40" minlength="10"></label>
+                <br>
+
+            <label for="email">E-mail: <br>
+                <input type="text" id="email" maxlength="50" minlength="10" placeholder="Digite seu email"></label>
+                
+            <div class="options">
+                <input type="radio" name="options" value="op1" id = 'op1'><label for="op1">Cidade</label>
+                <input type="radio" name="options" value="op2" id = 'op1'><label for="op2">Campo</label>
+                <input type="radio" name="options" value="op3" id = 'op1'><label for="op3">Praia</label>
+                <input type="radio" name="options" value="op4" id = 'op1'><label for="op4">Montanha</label>
+            </div>
+
+            <label for="resposta">Espaço para digitar a resposta:</label>
+            <textarea name="" id="resposta" maxlength="500" placeholder="Nos fale sobre o que você achou da sua viagem" cols="55" rows="10"></textarea>
+
+            <label for="data">Data: </label><input type="date" name="data" id="">
+            
+            <div class="acordos">
+                <input type="checkbox" name="agree" id="ag1"><label for="ag1">Concordo 1</label>
+                <input type="checkbox" name="agree" id="ag2"><label for="ag2">Concordo 2</label>
+            </div>
+
+            <div class="botoes">
+                <button type="submit">Enviar</button>
+                <button type="reset">Apagar</button>
+            </div>
+        </form>
+    </main>
     <script src="exercicio6-1-2.js"></script>
 </body>
 </html>

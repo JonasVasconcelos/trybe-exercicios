@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(0deg, rgb(41, 33, 33), rgb(63, 231, 63));
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+header{
+    margin-bottom: 20px;
+}
+
+form{
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background-color: bisque;
+    padding: 10px;
+    text-align: left;
+}
+
+label {
+    width: 100%;
+    line-height: 22px;
+}
+  
+input {
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+input[type='text']{
+    padding: 10px;
+    width: 100%;
+}
+
+.options, .options>label{
+    padding: 5px;
+    text-align: center;
+}
+
+input[type='radio']{
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+#resposta{
+    padding: 7px;
+}
+
+.acordos, .acordos >label{
+    width: 110px;
+    vertical-align: top;
+    margin-left: 5px;
+}
+
+.botoes{
+    text-align: center;
+}
+button{
+    font-size: 14px;
+    padding: 5px;
+}
