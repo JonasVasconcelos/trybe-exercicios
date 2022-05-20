@@ -6,6 +6,13 @@ Com isso me tornei capaz de criar páginas com formulários, estilizadas de form
 
 Tendo isso em mente, esta pasta contém todas as atividades de aprendizagem que desenvolvi ao longo do módulo de `Front-end` do curso da [Trybe](https://www.betrybe.com/).
 
+
+##### Bloco 9: Assincronicidade & Callbacks
+
+- [ ] 9-1: _JavaScript Assíncrono e Callbacks_
+- [ ] 9-2: _JavaScript Promises_
+- [ ] 9-3: _[Projeto - Carrinho de Compras]()_
+
 ##### Bloco 10: Introdução à React
 
 - [ ] 10-1: _Introdução - Front-end_
