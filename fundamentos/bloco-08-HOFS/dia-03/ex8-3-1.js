@@ -100,7 +100,35 @@ console.log(ficFan) */
 // ------------------------------------------------------------------
 //// 🚀 5 - Crie um array em ordem alfabética apenas com os nomes de todas as pessoas autoras de ficção científica ou fantasia.
  
-console.log(books
+/* console.log(books
   .filter((item) => item.genre === 'Ficção Científica' || item.genre === 'Fantasia')
-  .sort((a, b) => +(a.author.name > b.author.name) || +(a.author.name === b.author.name) - 1))
+  .sort((a, b) => +(a.author.name > b.author.name) || +(a.author.name === b.author.name) - 1)) */
 
+//// ------------------------------------------------------------------
+////  🚀 6 - Crie um array com o nome de todos os livros com mais de 60 anos de publicação.
+
+/* const oldBooks = (item) => {
+  return 2022 - item.releaseYear > 60
+}
+console.log(books.filter(oldBooks).map((item) => item.name))
+ */
+
+//// ------------------------------------------------------------------
+//// 🚀 7 - Encontre o nome do livro escrito pela pessoa cujo nome registrado começa com três iniciais.
+////Dica: cada inicial termina com um ponto.
+
+/* console.log(books
+  .filter((item) => {
+   return item.author.name[1] === '.' &&
+    item.author.name[4] === '.' &&
+    item.author.name[7] === '.'
+  })[0].author.name)
+ */
+
+/* console.log(books
+  .find((item) => (
+    item.author.name.split(' ')
+      .filter((word) => word.endsWith('.')).length === 3
+  )).name) */
+
+  
