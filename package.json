@@ -1,0 +1,23 @@
+{
+  "name": "trybe-exercicios",
+  "version": "1.0.0",
+  "description": "Este repositório contém todas as atividades de aprendizagem desenvolvidas por [Jonas Vasconcelos](https://www.linkedin.com/in/jonas-vasconcelos-808882106/) enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonasVasconcelos/trybe-exercicios.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonasVasconcelos/trybe-exercicios/issues"
+  },
+  "homepage": "https://github.com/JonasVasconcelos/trybe-exercicios#readme",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}

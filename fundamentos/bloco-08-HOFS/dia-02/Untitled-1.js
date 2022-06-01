@@ -9,10 +9,10 @@ const newEmployees = () => {
     return employees;
   };
 
-/* const inserirNome = (string, index) => {
+const inserirNome = (string, index) => {
     newEmployees.employees[index] = string;
 }
- */
 
-console.log(newEmployees)
+
+console.log(newEmployees(inserirNome('Jonas')))
 /* module.exports = inserirNome;  */
